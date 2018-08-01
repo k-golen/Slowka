@@ -35,14 +35,11 @@ def reset():
 	label3.config(text=tabela[index][1])
 	inpt.config(state='enabled')
 	
-tabela=[]	
+
 do_resetu=[]
 
 ile=0 #wartosc mowiaca o tym ile razy program pyta o slowo. ustawiana w czytanie()
-"""
-for i in czytanie():
-	tabela.append(i.split("#"))
-"""
+
 tabela = [i.split("#") for i in czytanie()]
 
 for i in tabela:
