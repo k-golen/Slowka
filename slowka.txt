@@ -1,0 +1,8 @@
+"""
+Slowka 0.1v
+Pierwszy param, okresla ile razy z rzedu trzeba dobrze odpowiedziec aby slowko zniknelo z puli (default: 2)
+"""
+2
+tree#drzewo
+red#czerwony
+Ewa#moja milosc
