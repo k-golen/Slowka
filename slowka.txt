@@ -3,6 +3,21 @@ Slowka 0.1v
 Pierwszy param, okresla ile razy z rzedu trzeba dobrze odpowiedziec aby slowko zniknelo z puli (default: 2)
 """
 2
-tree#drzewo
-red#czerwony
-Ewa#moja milosc
+bright#b³yskotliwy bystry
+determined#zdeterminowany zdecydowany
+resourceful#pomys³owy zaradny
+self-sufficient#samowystarczalny
+associated#zwi¹zane
+spontaneous#spontaniczny
+straightforward#bezpoœredni
+sympathetic#sympatyczny wspó³czuj¹cy
+conscientious#sumienny skrupulatny
+gentle#delikatny ³agodny
+sarcastic#sarkastyczny
+steady#sta³y pewny
+thorough#dok³adny
+tend to#ma tendencjê do
+take risk#podejmowaæ wyzwanie
+refuse to compromise#nie chodziæ na kompromis
+take advantage of sb#wykorzystaæ kgs
+insecure#niepewny

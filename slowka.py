@@ -7,17 +7,18 @@ import time,random
 
 def czytanie():
 	global ile
+	slowka=[]
 	plik = open('slowka.txt')
 	try:
-		slowka = plik.read().split("\n")
+		bufor = plik.read().split("\n")
 	finally:
 		plik.close()
-	ile = int(slowka[4])
+	ile = int(bufor[4])
 	
-	for i in range (len(slowka)-5):
-		slowka[i] = slowka[len(slowka)-i-1]
-	for i in range (5):
-		slowka.pop()
+		
+	for i in range (len(bufor)-5):
+		slowka.append(bufor[len(bufor)-i-1])
+
 	return slowka
 
 def reset():
@@ -55,6 +56,7 @@ index=random.randint(0,dlugosc-1)
 
 def wez(event):
 	global guess,index,tabela,dlugosc,count,reset,poprawne,czy_koniec
+
 	if index in poprawne:
 		pass
 
